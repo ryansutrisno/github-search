@@ -2,7 +2,10 @@ import { Box, useColorModeValue } from "@chakra-ui/react";
 
 export default function Footer() {
   return (
-    <Box bg={useColorModeValue("gray.100", "gray.900")}>
+    <Box
+      className="lg:flex-row flex-col justify-center place-content-center items-center text-center"
+      bg={useColorModeValue("gray.100", "gray.900")}
+    >
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
         <Box
           bg={useColorModeValue("white", "gray.700")}
@@ -25,7 +28,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="space-x-4 flex flex-row items-center">
+          <div className="space-x-4 flex flex-row justify-center place-content-center items-center">
             <a
               href="https://github.com/ryansutrisno"
               className="text-base font-normal text-gray-600 dark:text-gray-300"
