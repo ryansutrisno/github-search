@@ -42,10 +42,7 @@ function App() {
           p={8}
           rounded="md"
         >
-          <form
-            onSubmit={onSubmit}
-            // className="box-border flex lg:w-full flex-col item-center rounded-md px-[20px] py-[25px] md:w-[900px] md:px-[30px]"
-          >
+          <form onSubmit={onSubmit}>
             <Flex
               h={16}
               gap={5}
